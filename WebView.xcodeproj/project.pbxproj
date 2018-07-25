@@ -14,6 +14,8 @@
 		FCB019162106E1C200D3EDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB019142106E1C200D3EDEB /* LaunchScreen.storyboard */; };
 		FCB019212106E1C300D3EDEB /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB019202106E1C300D3EDEB /* WebViewTests.swift */; };
 		FCB0192C2106E1C300D3EDEB /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0192B2106E1C300D3EDEB /* WebViewUITests.swift */; };
+		FCB0193A2107630E00D3EDEB /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB019392107630E00D3EDEB /* WebController.swift */; };
+		FCF1BBED2108D2CD007E901D /* Scraping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1BBEC2108D2CC007E901D /* Scraping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FCB019272106E1C300D3EDEB /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB0192B2106E1C300D3EDEB /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		FCB0192D2106E1C300D3EDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB019392107630E00D3EDEB /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		FCF1BBEC2108D2CC007E901D /* Scraping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scraping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FCB019122106E1C200D3EDEB /* Assets.xcassets */,
 				FCB019142106E1C200D3EDEB /* LaunchScreen.storyboard */,
 				FCB019172106E1C200D3EDEB /* Info.plist */,
+				FCB019392107630E00D3EDEB /* WebController.swift */,
+				FCF1BBEC2108D2CC007E901D /* Scraping.swift */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF1BBED2108D2CD007E901D /* Scraping.swift in Sources */,
 				FCB0190E2106E1C200D3EDEB /* ViewController.swift in Sources */,
 				FCB0190C2106E1C200D3EDEB /* AppDelegate.swift in Sources */,
+				FCB0193A2107630E00D3EDEB /* WebController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
